@@ -1,0 +1,100 @@
+.poll-card {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  margin-top: 16px;
+  background: white;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.poll-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.poll-link {
+  text-decoration: none;
+}
+
+.option-one, .option-two {
+  height: 250px;
+  padding: 16px 32px;
+  width: 50%;
+  text-align: center;
+  color: rgba(255,255,255,0.9);
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.option-one {
+  background: #81D4FA;
+  position: relative;
+}
+
+.option-one:after {
+  content: 'or';
+  font-size: 16px;
+  position: absolute;
+  right: -20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.option-two {
+  background: #00BCD4;
+}
+
+.poll-data {
+  padding: 14px 16px 16px 16px;
+}
+
+.poll-text {
+  margin: 0;
+  padding-top: 16px;
+}
+
+.poll-votes {
+  text-align: center;
+  font-size: 25px;
+  margin: 0px;
+}
+
+.poll-info {
+  margin: 0px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.card-avatar {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin: 0px 10px -9px 0px;
+}
+
+.submit-date {
+  color: #999;
+}
+
+.choice {
+  font-size: 38px;
+}
+
+.error {
+  background: white;
+  text-align: center;
+  padding: 80px;
+}

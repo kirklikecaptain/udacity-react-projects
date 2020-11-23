@@ -1,0 +1,37 @@
+.signin-card {
+  width: 500px;
+  background: white;
+  border-radius: 3px;
+  padding: 16px;
+  margin: 100px auto 0px auto;
+}
+
+.signin-header {
+  margin: 0px;
+  padding-bottom: 16px;
+}
+
+.signin-avatar {
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 16px;
+  display: block;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.signin-button {
+  background: white;
+  border-radius: 0;
+  color: #333;
+  width: 100%;
+}
+
+.signin-button:hover {
+  background: #FFC107;
+  color: white;
+}

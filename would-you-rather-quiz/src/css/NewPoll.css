@@ -1,0 +1,43 @@
+form {
+  border-radius: 0px 0px 3px 3px;
+  background: white;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.new-header {
+  margin: 0px 0px 16px 0px;
+}
+
+.sub-header {
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textarea {
+  width: 47%;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.textarea:focus {
+  border: 1px solid #FFC107;
+}
+
+.submit-button {
+  margin-top: 20px;
+  display: block;
+}

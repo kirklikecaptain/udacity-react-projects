@@ -1,0 +1,39 @@
+.results-card {
+  background: white;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.results-header {
+  margin: 0px 0px 16px 0px;
+}
+
+th {
+  border-bottom: 1px #ddd solid;
+}
+
+th, td {
+  width: 21%;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.avatar-cell {
+  width: 5%;
+}
+
+.avatar-img {
+  width: 30px;
+  border-radius: 15px;
+  display: block;
+}
+
+.that-me {
+  background-color: #FFC107;
+  color: white;
+}

@@ -1,0 +1,15 @@
+.scoreboard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.score-col {
+  width: 50%;
+  padding: 0px 16px;
+}
+
+.another-poll {
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+}

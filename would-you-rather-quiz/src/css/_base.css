@@ -1,0 +1,72 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #f7f7f7;
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #FFC107;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin:  0;
+    padding: 0;
+}
+
+button {
+  background: #FFC107;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+button:disabled {
+  background: #faedc5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.left-align {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.no-more {
+  margin-top: 32px;
+  border-radius: 3px;
+  padding: 32px;
+  background: white;
+
+}
+
+/*handle keyboard navigators*/
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+  outline: none;
+}

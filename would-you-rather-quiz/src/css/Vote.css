@@ -1,0 +1,28 @@
+.vote-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 0px;
+}
+
+.vote-button {
+  z-index: 100;
+  cursor: pointer;
+}
+
+.first-op {
+  background: #03A9F4;
+}
+
+.first-op:hover {
+  background: #4FC3F7;
+  transform: translateY(-1px);
+}
+
+.second-op {
+  background: #00BCD4;
+}
+
+.second-op:hover {
+  background: #4DD0E1;
+  transform: translateY(-1px);
+}

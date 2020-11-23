@@ -1,0 +1,35 @@
+.nav {
+  background: #333;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.nav-bar li {
+  margin-right: 32px;
+}
+
+.nav-link {
+  display: block;
+  padding: 23px 0px 20px 0px;
+  border-bottom: 3px solid #333;
+  color: white;
+  text-decoration: none;
+}
+
+.sign-out {
+  padding: 10px;
+  border-radius: 0px;
+  background: none;
+  font-size: 16px;
+}
+
